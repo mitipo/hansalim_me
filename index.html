@@ -1,11 +1,526 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/script.js" defer></script>
+    <!-- SEO -->
+    <meta name="author" content="한살림" />
+    <meta
+      name="title"
+      content="한살림 장보기 :: 지구를 살리는 뜻깊은 생활실천, 한살림"
+    />
+    <meta
+      name="keywords"
+      content="쌀, 유정란, 참기름, 사과, 고구마, 복숭아, 딸기, 토마토, 감자, 홍삼, 양배추즙, 닭가슴살, 귤"
+    />
+    <meta
+      name="description"
+      content="사람과 자연 모두에 건강한 먹을거리와 생활용품을 생산·공급 합니다"
+    />
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="한살림 장보기 :: 지구를 살리는 뜻깊은 생활실천, 한살림"
+    />
+    <meta
+      property="og:description"
+      content="사람과 자연 모두에 건강한 먹을거리와 생활용품을 생산·공급 합니다"
+    />
+    <meta property="og:site_name" content="한살림 장보기" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://shop.hansalim.or.kr" />
+    <meta
+      property="og:image"
+      content="https://shop.hansalim.or.kr/shopping/resources/shopping/web/images/common/hansalim_sns_logo.png"
+    />
+
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="한살림 장보기 :: 지구를 살리는 뜻깊은 생활실천, 한살림"
+    />
+    <meta
+      name="twitter:description"
+      content="사람과 자연 모두에 건강한 먹을거리와 생활용품을 생산·공급 합니다"
+    />
+    <meta
+      name="twitter:image"
+      content="https://shop.hansalim.or.kr/shopping/resources/shopping/web/images/common/hansalim_sns_logo.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/icon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/icon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>한살림 장보기 :: 지구를 살리는 뜻깊은 생활실천, 한살림</title>
+    <!-- IE 9 이하는 HTML5 태그를 지원하지 않는다. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <!-- CSS3 적용 -->
+    <!-- <script src="js/prefixfree.min.js"></script> -->
+    <!-- css 초기화 -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 안내창 -->
+
+    <!-- 고정메뉴 -->
+
+    <div class="wrap">
+      <!-- 상단 -->
+      <header>
+        <div class="logo">
+          <img src="images/logo.png" alt="로고" />
+        </div>
+        <div class="gong">
+          <img src="images/icoLocation.png" alt="공급일" />
+          <p>공급일</p>
+        </div>
+        <div class="menu">
+          <ul class="right-menu">
+            <li>
+              <a href="#"><img src="images/icoDlvr.png" alt="매장배달" /></a>
+            </li>
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">나의한살림</a></li>
+            <li><a href="#">조합원센터</a></li>
+            <li><a href="#">매장안내</a></li>
+          </ul>
+          <ul class="left-menu">
+            <li>
+              <a href="#"><img src="images/menu_icon.png" alt="" /></a>
+            </li>
+            <li><a href="#">전체물품</a></li>
+            <li><a href="#">추천</a></li>
+            <li><a href="#">알뜰</a></li>
+            <li><a href="#">새물품</a></li>
+            <li><a href="#">사전예약</a></li>
+            <li><a href="#">꼬마와땅</a></li>
+            <li><a href="#">채식</a></li>
+            <li><a href="#">참여</a></li>
+            <li><a href="#">더보기</a></li>
+          </ul>
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="무엇을 찾아드릴까요?" />
+          <div class="inputimg"></div>
+        </div>
+      </header>
+      <!-- 비주얼 -->
+      <div id="visual">
+        <div class="text-box">
+          <h2>
+            기후 위기로 인한 유례 없는 폭우로 <br />
+            생산지 피해가 큽니다
+          </h2>
+          <p>한살림 생산지 상황 및 물품 공급 안내</p>
+        </div>
+        <img src="images/visualPlay.png" alt="재생/일시정지" />
+        <p>1/13</p>
+        <img src="images/visualNum.png" alt="재생/일시정지" />
+        <img src="images/visualMore.png" alt="재생/일시정지" />
+      </div>
+      <!-- 이물품은어떠세요 -->
+      <div id="todayProduct">
+        <h3>이 물품은 어떠세요?</h3>
+        <div class="today-1">
+          <div>인기</div>
+          <p>양파(1kg)</p>
+          <h3>2,600 원</h3>
+          <img src="images/btnCart.png" alt="장바구니" />
+        </div>
+        <div class="today-2">
+          <div>인기</div>
+          <p>부추(200g)</p>
+          <h3>1,850 원</h3>
+          <img src="images/btnCart.png" alt="장바구니" />
+        </div>
+        <div class="today-3">
+          <div>인기</div>
+          <p>자색양파(2kg)</p>
+          <h3>4,900 원</h3>
+          <img src="images/btnCart.png" alt="장바구니" />
+        </div>
+        <div class="today-4">
+          <div>인기</div>
+          <p>완숙토마토(1kg)</p>
+          <h3>5,400원</h3>
+        </div>
+        <div class="today-5">
+          <p>자연그대로 메이크업 리무버(100ml)</p>
+          <h3>10,300원</h3>
+          <img src="images/btnCart.png" alt="장바구니" />
+        </div>
+        <div class="today-6">
+          <div>인기</div>
+          <p>자색양파(1kg)</p>
+          <h3>2,600원</h3>
+          <img src="images/btnCart.png" alt="장바구니" />
+        </div>
+        <div class="today-7">
+          <div>인기</div>
+          <p>방울토마토/대추형(500g)</p>
+          <h3>3,600원</h3>
+          <img src="images/btnCart.png" alt="장바구니" />
+        </div>
+        <div class="today-8">
+          <div>인기</div>
+          <p>열무(500g)</p>
+          <h3>2,650원</h3>
+          <img src="images/btnCart.png" alt="장바구니" />
+        </div>
+      </div>
+      <!-- 새물품 -->
+      <div id="newProduct">
+        <div class="new-1">
+          <h3>피부진정과 수분충전 '병풀잎 시카패드'</h3>
+          <p>100% 순면 패드로 피부 자극을 최소화</p>
+        </div>
+        <div class="new-2-align">
+          <div class="new-2">
+            <p>겉은 바삭하고 속은 부드러운 '냉동바게트'</p>
+          </div>
+          <div class="new-3">
+            <p>쫄깃한 '100% 국산순도토리면'</p>
+          </div>
+          <div class="new-4">
+            <p>사과의 상큼함을 더한 '유기농사과요구르트'</p>
+          </div>
+          <div class="new-5">
+            <p>찐 통귀리를 압착한 '유기농 오트밀'</p>
+          </div>
+        </div>
+      </div>
+      <!-- 추천물품 -->
+      <div id="recommend">
+        <div class="reco-1">
+          <h3><b>조합원</b>님을 위한 <br />추천물품</h3>
+          <p class="millgaru">밀가루 없이도 맛있는 면요리!</p>
+          <img src="images/arrow_left.png" alt="왼쪽" />
+          <p>1/3</p>
+          <img src="images/arrow_right.png" alt="오른쪽" />
+        </div>
+        <div class="reco-2-align">
+          <div class="reco-2">
+            <div>새물품</div>
+            <img src="images/dotori.jpg" alt="" />
+            <p>국산순도토리면(240g)</p>
+            <p><b>12,000원</b></p>
+            <img src="images/btnCart.png" alt="장바구니" />
+          </div>
+          <div class="reco-3">
+            <div>새물품</div>
+            <img src="images/dotori2" alt="" />
+            <p>미역국수(180g)</p>
+            <p><b>3,000원</b></p>
+            <img src="images/btnCart.png" alt="장바구니" />
+          </div>
+          <div class="reco-4">
+            <div>새물품</div>
+            <img src="images/dotori3.jpg" alt="" />
+            <p>다시마국수(180g)</p>
+            <p>3,000원</p>
+            <img src="images/btnCart.png" alt="장바구니" />
+          </div>
+        </div>
+      </div>
+      <!-- 인기물품 -->
+      <div id="bestProduct">
+        <h2>지금 가장 많이 이용하는 인기물품</h2>
+        <button>휴지/생활 물품 더보기</button>
+        <nav class="nav">
+          <ul class="choose">
+            <li>
+              <a href="#"><img src="images/arrow_left.png" alt="" /></a>
+            </li>
+            <li><a href="#">간식/음료/유제품</a></li>
+            <li><a href="#">건강/차</a></li>
+            <li><a href="#">화장품/오가닉코튼</a></li>
+            <li><a href="#">주방/욕실/세정</a></li>
+            <li><a href="#">휴지/생활</a></li>
+            <li><a href="#">반려동물</a></li>
+            <li><a href="#">대용량/어린이집</a></li>
+            <li>
+              <a href="#"><img src="images/arrow_right.png" alt="" /></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="four-box">
+          <div>
+            <div>인기</div>
+            <img src="images/good_cate12_01.jpg" alt="휴지" />
+            <p>생협함께 3겹둥근휴지 (18롤)</p>
+            <p><b>15,500원</b></p>
+            <img src="images/btnCart.png" alt="장바구니" />
+          </div>
+          <div>
+            <div>인기</div>
+            <img src="images/review_3.jpg" alt="" />
+            <p>생협함께 미용사각휴지 (180매/3상자)</p>
+            <p><b>5,000원</b></p>
+            <img src="images/btnCart.png" alt="장바구니" />
+          </div>
+          <div>
+            <div>인기</div>
+            <img src="images/review8.jpg" alt="" />
+            <p>생협함께 주방휴지 (6롤)</p>
+            <p><b>7,300원</b></p>
+            <img src="images/btnCart.png" alt="장바구니" />
+          </div>
+          <div>
+            <div>인기</div>
+            <img src="images/review9.jpg" alt="" />
+            <p>달맞이생리대 중형 (25cm/16개입)</p>
+            <p><b>4,100원</b></p>
+            <img src="images/btnCart.png" alt="장바구니" />
+          </div>
+        </div>
+      </div>
+      <!-- 브랜드관 -->
+      <div id="brand">
+        <div class="brand-1">
+          <h3>한살림 가치를 담은 <br /><b>브랜드관</b></h3>
+          <p>생활 속 작은 실천! <br />뜻깊은 물품소비에 참여해보세요.</p>
+          <button>더보기</button>
+          <p>1/4</p>
+        </div>
+        <div id="brand-three-box">
+          <div>
+            <img src="images/brand_1.png" alt="참여인증" />
+            <p>참여인증</p>
+            <div>
+              <p>참여공동체 <br /><b>66곳</b></p>
+            </div>
+            <div>
+              <p>재배면적 <br /><b>16,285,356㎡</b></p>
+            </div>
+          </div>
+          <div>
+            <img src="images/brand_2.png" alt="병재사용" />
+            <p>병 재사용</p>
+            <div>
+              <p>온실가스 <br /><b>118.3톤 ↓</b></p>
+            </div>
+            <div>
+              <p>소나무 <br /><b>8,857그루 ↑</b></p>
+            </div>
+          </div>
+          <div>
+            <img src="images/brand_3.png" alt="토박이" />
+            <p>토박이 씨앗살림</p>
+            <div>
+              <p>생산량 <br /><b>207,728kg</b></p>
+            </div>
+            <div>
+              <p>재배면적 <br /><b>68만㎡</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 배너 -->
+      <div id="banner">
+        <div class="banner-1">
+          <img src="images/swiper_img_01.jpg" alt="" />
+        </div>
+        <div class="banner-2">
+          <img src="images/swiper_img_02.jpg" alt="" />
+        </div>
+      </div>
+      <!-- 제철제맛 요리 -->
+      <div id="cook">
+        <h3>제철제맛 가득한 요리</h3>
+        <div class="cook-1">
+          <img src="images/jang.jpg" alt="" />
+          <div class="green">요리방법</div>
+          <div>
+            <p>녹차의 싱그러움과 단짠단짠 장어구이의 환상조합</p>
+            <br />
+            <b>장어 녹차말이밥</b>
+          </div>
+        </div>
+        <div class="cook-2">
+          <ul>
+            <li>
+              <button class="checkbox"></button>중파(500g) <br /><b>2,700원</b>
+            </li>
+            <li>
+              <button class="checkbox"></button>녹차티백(1.2g*20티백)<br /><b
+                >2,500원</b
+              >
+            </li>
+            <li>
+              <button class="checkbox"></button>쌀조청(500g)<br /><b>8,500원</b>
+            </li>
+            <br />
+            <li><button></button>전체 선택 0개</li>
+            <button>총 0원 장바구니 담기</button>
+          </ul>
+        </div>
+      </div>
+      <!-- 이용후기 -->
+      <div id="review">
+        <div class="review-1">
+          <h3>조합원의 생생한 <br /><b>이용후기</b></h3>
+          <p>
+            이웃 조합원은 <br />
+            어떤 물품을 구매했을까요?
+          </p>
+          <img src="images/arrow_left.png" alt="왼쪽" />
+          <p><b>1</b>/3</p>
+          <img src="images/arrow_right.png" alt="오른쪽" />
+        </div>
+        <div class="review-2">
+          <h3>호두감자숙성빵(260g)</h3>
+          <img src="images/icoRating.png" alt="" />
+          <div class="review-img"><img src="images/rv1.jpg" alt="" /></div>
+          <p><b>4.0</b></p>
+          <p>
+            원래 매장에선 비교적 촉촉한데.. 배송으로 받으면 <br />
+            푸석해요 다시 물뿌려서 돌려서 먹었어요.
+          </p>
+          <br />
+          <p>최*섭(한살림서서울)</p>
+        </div>
+        <div class="review-threebox">
+          <div class="review-3">
+            <h3>생활살균수(300ml)</h3>
+            <img src="images/icoRating.png" alt="" />
+            <div class="review-img"><img src="images/rv2.jpg" alt="" /></div>
+            <p><b>4.0</b></p>
+            <p>
+              향이 은은해서 좋아요! 금방 써서 리필용도 <br />있으면 좋겠어요
+            </p>
+            <br />
+            <p>박*영 (한살림성남용인)</p>
+          </div>
+          <div class="review-4">
+            <h3>호두감자숙성빵(260g)</h3>
+            <img src="images/icoRating.png" alt="" />
+            <div class="review-img"><img src="images/rv3.jpg" alt="" /></div>
+            <p><b>4.0</b></p>
+            <p>두번째 구매해요 간장대신 잘 사용합니다.</p>
+            <br />
+            <p>이*희 (한살림경기남부)</p>
+          </div>
+        </div>
+      </div>
+      <!-- 공지사항 -->
+      <div id="notice">
+        <div class="notice-1">
+          <h3>공지사항 |</h3>
+          <h3>물품소식</h3>
+          <nav class="notice-1-text">
+            <ul>
+              <li>
+                <a href="#">비름나물 농약 검출 관련 보고 및 후속 조치 안내</a>
+              </li>
+              <li>2023.07.17</li>
+              <li>
+                <a href="#">한살림 시스템 업데이트 작업 안내(7월 21일 23시)</a>
+              </li>
+              <li>2023.07.11</li>
+              <li>
+                <a href="#">신규가입조합원 30% 할인쿠폰 5종 사용기간 및...</a>
+              </li>
+              <li>2023.06.22</li>
+              <li>
+                <a href="#"
+                  >[입장문]후쿠시마 제1원전 방사성 오염수 해양 투기...
+                </a>
+              </li>
+              <li>2023.04.13</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="notice-2">
+          <h3>조합원상담실</h3>
+          <h2>1661-0800</h2>
+          <nav class="notice-2-text">
+            <ul>
+              <li>평일 <b>오전 9시~오후 6시 (점심시간 12시~1시)</b></li>
+              <li>주말 및 공휴일 휴무</li>
+              <li>이메일 <b>hansalim@hansalim.or.kr</b></li>
+              <li>* 매장 구입 물품은 해당 매장 문의</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="notice-3">
+          <h3>자주 묻는 질문</h3>
+          <div class="notice-3-align">
+            <div class="notice-3-box">조합원정보</div>
+            <div class="notice-3-box">주문/결제</div>
+            <div class="notice-3-box">취소/반품/환불</div>
+            <div class="notice-3-box">공급</div>
+            <div class="notice-3-box">이용안내</div>
+            <div class="notice-3-box">기타</div>
+          </div>
+        </div>
+      </div>
+      <!-- 하단 -->
+      <footer>
+        <div class="footer-firstMenu">
+          <ul class="left-ul">
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">한살림소개</a></li>
+            <li><a href="#">소식지PDF</a></li>
+            <li><a href="#">앱다운로드</a></li>
+          </ul>
+          <ul class="right-ul">
+            <li><a href="#">한살림 가족</a></li>
+            <li><a href="#">지역 한살림 +</a></li>
+          </ul>
+        </div>
+        <div class="footer-secondMenu">
+          <ul>
+            <li>상호명 : 한살림소비자생활협동조합연합회</li>
+            <li>대표자 : 권옥자</li>
+            <li>사업자등록번호 : <a href="#">126-82-12328</a></li>
+            <li>통신판매업신고번호 : <a href="#">2014-경기안성-093호</a></li>
+            <li>
+              안성사무소 : 경기 안성시 대덕면 안성대로 1526(보동리 285-3)/
+            </li>
+            <li>서울사무소 : 서울시 강남구 봉은사로81길 15(삼성동)</li>
+            <li>입점문의 : <a href="#">입점문의하기</a></li>
+            <li>이메일 : <a href="#">이메일 : hansalim@hansalim.or.kr</a></li>
+            <li>이곳의 모든 저작권은 한살림에게 있습니다.</li>
+          </ul>
+        </div>
+        <div class="icon">
+          <img src="images/ftSns.png" alt="아이콘" />
+          <img src="images/ftSns.png" alt="아이콘" />
+          <img src="images/ftSns.png" alt="아이콘" />
+          <img src="images/ftSns.png" alt="아이콘" />
+          <img src="images/ftSns.png" alt="아이콘" />
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
